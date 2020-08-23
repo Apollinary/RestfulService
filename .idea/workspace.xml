@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d7f8fcf-ba8c-4eef-b3e1-51a081d0129e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringMVCApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVCApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVCApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVCApp/src/main/java/com/example/servingwebcontent/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVCApp/src/main/java/com/example/servingwebcontent/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVCApp/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVCApp/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVCApp/target/classes/META-INF/SpringMVCApp.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVCApp/target/classes/com/example/servingwebcontent/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVCApp/target/classes/com/example/servingwebcontent/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringMVCApp/target/classes/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringMVCApp/target/classes/templates/hello.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gImnLaa9aaBSR6T1BjlxomXGGJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringMVCApp" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d7f8fcf-ba8c-4eef-b3e1-51a081d0129e" name="Default Changelist" comment="" />
+      <created>1597810646747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597810646747</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597811820330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597811820330" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597811830519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597811830519" />
+  </component>
+</project>
