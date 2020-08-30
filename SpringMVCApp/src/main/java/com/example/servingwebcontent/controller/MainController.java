@@ -1,4 +1,4 @@
-package com.example.servingwebcontent;
+package com.example.servingwebcontent.controller;
 
 import com.example.servingwebcontent.domain.User;
 import com.example.servingwebcontent.repositories.UserRepository;
@@ -8,38 +8,39 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-public class HelloController {
+public class MainController {
     @Autowired
     private UserRepository userRepository;
 
     @GetMapping("/main")
-    public String main(@RequestParam(name = "name", required = false, defaultValue = "World") String name, Model model) {
-        model.addAttribute("name", name);
+    public String main(@RequestParam(name = "username", required = false, defaultValue = "World") String username, Model model) {
+        model.addAttribute("username", username);
         return "main";
     }
-
+/*
     @GetMapping("/login")
-    public String login(@RequestParam(name = "name", required = false, defaultValue = "World") String name, Model model) {
-        model.addAttribute("name", name);
+    public String login(@RequestParam(name = "username", required = false, defaultValue = "World") String username, Model model) {
+        model.addAttribute("username", username);
         return "login";
     }
 
     @PostMapping(path="/add")
     public @ResponseBody
     String addNewUser(@RequestParam String name
-            , @RequestParam String email, Model model) {
+            , @RequestParam String password, Model model) {
 
         User n = new User();
         n.setName(name);
-        n.setEmail(email);
+        n.setPassword(password);
         userRepository.save(n);
 
         return "add";
     }
+*/
 
     @GetMapping("/greeting")
-    public String greeting(@RequestParam(name = "name", required = false, defaultValue = "World") String name, Model model) {
-        model.addAttribute("name", name);
+    public String greeting(@RequestParam(name = "username", required = false, defaultValue = "World") String username, Model model) {
+        model.addAttribute("username", username);
         return "greeting";
     }
 
@@ -49,13 +50,14 @@ public class HelloController {
         return "all";
     }
 
-    @RequestMapping(value="/registration", method=RequestMethod.GET)
+    @RequestMapping(value="/reg", method=RequestMethod.GET)
     public String greetingForm(Model model) {
         model.addAttribute("user", new User());
-        return "registration";
+        return "reg";
     }
 
-    @RequestMapping(value="/registration", method=RequestMethod.POST)
+
+    @RequestMapping(value="/reg", method=RequestMethod.POST)
     public String greetingSubmit(@ModelAttribute User user, Model model) {
         userRepository.save(user);
         model.addAttribute("user", user);

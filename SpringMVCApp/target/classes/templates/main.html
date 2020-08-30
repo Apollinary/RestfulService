@@ -5,10 +5,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body>
+<h1>Main page</h1>
 <p th:text="'Hello, ' + ${name} + '!'"/>
 <a href="/login">Войти</a>
 <a href="/registration">Зарегистрироваться</a>
 <a href="/greeting">Войти (только Администратор)</a>
 <a href="/all">Список пользователей</a>
+<div>
+    <form th:action="@{/logout}" method="post">
+        <input type="submit" value="Sign Out"/>
+    </form>
+</div>
 </body>
 </html>
